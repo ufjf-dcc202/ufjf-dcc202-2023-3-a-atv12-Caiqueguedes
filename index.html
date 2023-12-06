@@ -22,10 +22,25 @@
               />Pomar</label
             >
             <label
-              ><input type="radio" name="origem" value="maria" />Maria</label
+              ><input type="radio" name="origem" value="joao" />João</label
+            ><input type="radio" name="origem" value="maria" />Maria</label
             >
           </fieldset>
-
+          <fieldset>
+            <legend>Destino</legend>
+            <label
+              ><input
+                type="radio"
+                name="destino"
+                value="pomar"
+                checked
+              />Pomar</label
+            >
+            <label
+              ><input type="radio" name="destino" value="joao" />João</label
+            ><input type="radio" name="origem" value="maria" />Maria</label
+            >
+          </fieldset>
           <label for="ifruta">Fruta:</label>
           <select id="ifruta" name="fruta">
             <option value="maca">Maçã</option>
@@ -44,6 +59,11 @@
           />
           <button type="submit">Enviar</button>
         </form>
+      </section>
+      <section>
+        <h2>Estoque</h2>
+        <ol id="olJoao"></ol>
+        <ol id="olAria"></ol>
       </section>
     </main>
   </body>
