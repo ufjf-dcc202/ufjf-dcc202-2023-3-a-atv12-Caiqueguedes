@@ -1,6 +1,7 @@
 //main.js
+console.log(document);
 document.entrada.addEventListener("submit", leFormulario);
-leFormulario();
+//leFormulario();
 
 function leFormulario(event) {
   event.preventDefault();
