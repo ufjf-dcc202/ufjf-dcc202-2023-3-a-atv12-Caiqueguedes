@@ -2,7 +2,8 @@
 document.entrada.addEventListener("submit", leFormulario);
 leFormulario();
 
-function leFormulario() {
+function leFormulario(event) {
+  event.preventDefault();
   const fruta = document.entrada.furta.value;
   const quantidade = document.entrada.fruta.value;
 
