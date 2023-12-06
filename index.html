@@ -11,8 +11,21 @@
       <h1>DCC202 - Atividade 12: Caique Guedes</h1>
       <section>
         <form name="entrada">
-          <input type="radio" name="origem" value="joao" />
-          <input type="radio" name="origem" value="maria" />
+          <fieldset>
+            <legend>Origem</legend>
+            <label
+              ><input
+                type="radio"
+                name="origem"
+                value="pomar"
+                checked
+              />Pomar</label
+            >
+            <label
+              ><input type="radio" name="origem" value="maria" />Maria</label
+            >
+          </fieldset>
+
           <label for="ifruta">Fruta:</label>
           <select id="ifruta" name="fruta">
             <option value="maca">Maçã</option>
