@@ -1,4 +1,11 @@
 //estoque.js
-
-let joao = 1;
-let maria = 2;
+let estoque ={
+joao = [
+    {tipo:"maca", qtd: 1},
+    {tipo:"pera", qtd: 1}
+    ],
+ maria = [
+    {tipo:"maca", qtd: 2},
+    {tipo: "banana", qtd: 4}
+    ],
+}
