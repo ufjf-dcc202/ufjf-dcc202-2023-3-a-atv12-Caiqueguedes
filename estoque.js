@@ -6,7 +6,7 @@ let estoque = {
   ],
   maria: [
     { tipo: "maca", qtd: 2 },
-    { tipo: "banana", qtd: 4 },
+    { tipo: "banana", qtd: 1 },
   ],
 };
 

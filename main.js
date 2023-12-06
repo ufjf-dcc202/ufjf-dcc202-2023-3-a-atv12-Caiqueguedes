@@ -1,5 +1,5 @@
 //main.js
-
+document.entrada.addEventListener("submit", leFormulario);
 leFormulario();
 
 function leFormulario() {
