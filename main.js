@@ -24,11 +24,10 @@ function leFormulario(event) {
 
 function atualizaTela() {
   const estoque = getEstoque();
-  const joao = estoque['joao'];
-  olJoao.innerHTML = "";
-  preencheListaPessoa(joao, olJoao);
+  
+  preencheListaPessoa(estoque['joao'], olJoao);
   const maria = estoque['maria'];
-  preencheListaPessoa(maria, olMaria);
+  preencheListaPessoa(estoque['maria'], olMaria);
 }
 
 function preencheListaPessoa(pessoa, lista){
