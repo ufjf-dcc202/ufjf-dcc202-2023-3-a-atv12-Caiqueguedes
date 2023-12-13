@@ -1,4 +1,3 @@
-//estoque.js
 let estoque = {
   'joao': [
     { 'tipo' : "maca", qtd: 1 },
@@ -6,7 +5,7 @@ let estoque = {
   ],
   'maria': [
     { 'tipo' : "maca", qtd: 2 },
-    { 'tipo' : "banana", qtd: 4 }
+    { 'tipo' : "banana", qtd: 1 }
   ]
 };
 

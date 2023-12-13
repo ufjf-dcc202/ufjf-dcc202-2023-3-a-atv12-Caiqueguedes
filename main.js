@@ -26,7 +26,6 @@ function atualizaTela() {
   const estoque = getEstoque();
   
   preencheListaPessoa(estoque['joao'], olJoao);
-  const maria = estoque['maria'];
   preencheListaPessoa(estoque['maria'], olMaria);
 }
 
