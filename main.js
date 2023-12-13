@@ -1,6 +1,6 @@
 import { getEstoque, transacao } from "./estoque.js";
 
-document.entrada.addEventListener("submit", leFormulario());
+document.entrada.addEventListener("submit", leFormulario);
 //leFormulario();
 
 const olJoao = document.querySelector("#olJoao");
