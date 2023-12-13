@@ -1,13 +1,13 @@
 //estoque.js
 let estoque = {
-  joao: [
+  'joao': [
     { tipo: "maca", qtd: 1 },
-    { tipo: "pera", qtd: 1 },
+    { tipo: "pera", qtd: 1 }
   ],
-  maria: [
+  'maria': [
     { tipo: "maca", qtd: 2 },
-    { tipo: "banana", qtd: 1 },
-  ],
+    { tipo: "banana", qtd: 4 }
+  ]
 };
 
 export function getEstoque() {
