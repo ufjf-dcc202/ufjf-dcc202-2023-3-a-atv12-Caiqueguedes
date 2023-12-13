@@ -26,19 +26,17 @@ function atualizaTela() {
   const estoque = getEstoque();
   const joao = estoque['joao'];
   olJoao.innerHTML = "";
-  for(let i=0; i < joao.length; i++){
-    const monte = joao[i];
-    const eLi = document.createElement('li');
-    eLi.innerText = '${monte.fruta}: ${monte.qtd}';
-    olJoao.append(eLi);
-  }
-
+  preencheListaPessoa(joao, olJoao);
   const maria = estoque['maria'];
-  olJoao.innerHTML = "";
-  for(let i=0; i < maria.length; i++){
-    const monte = maria[i];
+  preencheListaPessoa(maria, olMaria);
+}
+
+function preencheListaPessoa(pessoa, lista){
+  lista.innerHTML = "";
+  for(let i=0; i < pessoa.length; i++){
+    const monte = pessoa[i];
     const eLi = document.createElement('li');
-    eLi.innerText = '${monte.fruta}: ${monte.qtd}';
+    eLi.innerText = '${monte.tipo}: ${monte.qtd}';
     olMaria.append(eLi);
   }
 }
