@@ -1,11 +1,11 @@
 let estoque = {
   'joao': [
     { 'tipo' : "maca", qtd: 1 },
-    { 'tipo' : "pera", qtd: 1 }
+    { 'tipo' : "pera", qtd: 2 }
   ],
   'maria': [
     { 'tipo' : "maca", qtd: 2 },
-    { 'tipo' : "banana", qtd: 1 }
+    { 'tipo' : "banana", qtd: 4 }
   ]
 };
 
@@ -14,19 +14,9 @@ export function getEstoque() {
 }
 
 export function LimpaEstoque(){
+    estoque = {};
+}
 
-}
-export function transacao(origem, destino, quantidade, fruta){
-  if(origem === 'pomar'){
-    const pessoa = estoque[destino];
-    for(let i = 0; i < pessoa.lenght;i++){
-      const monte = pessoa[i];
-      if(monte.tipo ===fruta){
-        monte.qtd += quantidade;
-      }
-    }
-  }
-}
 
 export function transacaoNoEstoque(origem, destino, tipo, quantidade) 
 {
