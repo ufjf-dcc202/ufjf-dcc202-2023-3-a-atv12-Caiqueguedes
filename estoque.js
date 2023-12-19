@@ -99,3 +99,5 @@ export function transacaoNoEstoque(origem, destino, tipo, quantidade)
     
     return;
 }
+
+export {getEstoque, LimpaEstoque, transacaoNoEstoque};
